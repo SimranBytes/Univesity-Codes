@@ -24,7 +24,7 @@ int main() {
         for(i=0;i<7;i++)
             cin>>dataatrec[i];
     
-        c1=dataatrec[6]^dataatrec[4]^dataatrec[2]^dataatrec[0];
+    c1=dataatrec[6]^dataatrec[4]^dataatrec[2]^dataatrec[0];
     c2=dataatrec[5]^dataatrec[4]^dataatrec[1]^dataatrec[0];
     c3=dataatrec[3]^dataatrec[2]^dataatrec[1]^dataatrec[0];
     c=c3*4+c2*2+c1 ;
